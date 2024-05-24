@@ -1,0 +1,28 @@
+:root {
+    --font-extraSmall: 12px;
+    --font-small: 14px;
+    --font-normal: 16px;
+}
+
+/* Fonts */
+@font-face {
+    font-family: poppinsRegular;
+    src: url('../fonts/Poppins/Poppins-Regular.ttf');
+}
+
+body {
+    font-family: poppinsRegular, 'sans-serif';
+}
+
+/* Navbar */
+.navbar {
+    background: linear-gradient(150deg, #000000, #9d0303);
+}
+.navbar .nav-link {
+    font-size: var(--font-small);
+    color: white;
+}
+
+.navbar .btn {
+    font-size: var(--font-small);
+}
